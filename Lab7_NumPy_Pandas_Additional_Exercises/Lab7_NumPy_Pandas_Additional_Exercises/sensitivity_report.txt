@@ -1,0 +1,19 @@
+SECOM SENSITIVITY AND ROBUSTNESS REPORT
+---------------------------------------
+Student: Rojas TUPM-26-1244
+Random Seed: 261244
+Selected Features: Feature_000, Feature_208, Feature_014, Feature_578, Feature_540
+Bootstrap Repetitions: 240
+Largest Change in Mean Difference: Feature_000 (0.0142)
+Features with Changed Difference Sign: 0
+Features with Changed Ranking: 0
+95% CI excludes zero (available-case): 1 of 5
+95% CI excludes zero (median-imputed): 1 of 5
+Reproducibility Verified: True
+
+Interpretation:
+- The direction of every mean difference is the same under both strategies.
+- Feature rankings are the same under both strategies.
+- A CI that includes zero means the Fail-Pass difference is not clearly separated from zero.
+- Median imputation uses full-dataset medians and can shrink differences when many values are missing.
+- Group differences describe association and do not establish failure causes.
